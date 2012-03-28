@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F200B081522C9D800ED3242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F200B071522C9D800ED3242 /* UIKit.framework */; };
+		6F200B0A1522C9D800ED3242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F200B091522C9D800ED3242 /* Foundation.framework */; };
+		6F200B0C1522C9D800ED3242 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F200B0B1522C9D800ED3242 /* CoreGraphics.framework */; };
+		6F200B121522C9D800ED3242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B101522C9D800ED3242 /* InfoPlist.strings */; };
+		6F200B141522C9D800ED3242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B131522C9D800ED3242 /* main.m */; };
+		6F200B181522C9D800ED3242 /* WGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B171522C9D800ED3242 /* WGAppDelegate.m */; };
+		6F200B1B1522C9D800ED3242 /* WGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B1A1522C9D800ED3242 /* WGRootViewController.m */; };
+		6F200B1E1522C9D800ED3242 /* WGDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B1D1522C9D800ED3242 /* WGDataViewController.m */; };
+		6F200B211522C9D800ED3242 /* WGModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B201522C9D800ED3242 /* WGModelController.m */; };
+		6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B221522C9D800ED3242 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F200B031522C9D800ED3242 /* iPhoneRoman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneRoman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F200B071522C9D800ED3242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F200B091522C9D800ED3242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F200B0B1522C9D800ED3242 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F200B0F1522C9D800ED3242 /* iPhoneRoman-Info.plist */ = {isa = PBXFileReference; path = "iPhoneRoman-Info.plist"; sourceTree = "<group>"; };
+		6F200B111522C9D800ED3242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F200B131522C9D800ED3242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F200B151522C9D800ED3242 /* iPhoneRoman-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneRoman-Prefix.pch"; sourceTree = "<group>"; };
+		6F200B161522C9D800ED3242 /* WGAppDelegate.h */ = {isa = PBXFileReference; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		6F200B171522C9D800ED3242 /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
+		6F200B191522C9D800ED3242 /* WGRootViewController.h */ = {isa = PBXFileReference; path = WGRootViewController.h; sourceTree = "<group>"; };
+		6F200B1A1522C9D800ED3242 /* WGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGRootViewController.m; sourceTree = "<group>"; };
+		6F200B1C1522C9D800ED3242 /* WGDataViewController.h */ = {isa = PBXFileReference; path = WGDataViewController.h; sourceTree = "<group>"; };
+		6F200B1D1522C9D800ED3242 /* WGDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGDataViewController.m; sourceTree = "<group>"; };
+		6F200B1F1522C9D800ED3242 /* WGModelController.h */ = {isa = PBXFileReference; path = WGModelController.h; sourceTree = "<group>"; };
+		6F200B201522C9D800ED3242 /* WGModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGModelController.m; sourceTree = "<group>"; };
+		6F200B231522C9D800ED3242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F200B001522C9D800ED3242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F200B081522C9D800ED3242 /* UIKit.framework in Frameworks */,
+				6F200B0A1522C9D800ED3242 /* Foundation.framework in Frameworks */,
+				6F200B0C1522C9D800ED3242 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F200AF81522C9D700ED3242 = {
+			isa = PBXGroup;
+			children = (
+				6F200B0D1522C9D800ED3242 /* iPhoneRoman */,
+				6F200B061522C9D800ED3242 /* Frameworks */,
+				6F200B041522C9D800ED3242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F200B041522C9D800ED3242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F200B031522C9D800ED3242 /* iPhoneRoman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F200B061522C9D800ED3242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F200B071522C9D800ED3242 /* UIKit.framework */,
+				6F200B091522C9D800ED3242 /* Foundation.framework */,
+				6F200B0B1522C9D800ED3242 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F200B0D1522C9D800ED3242 /* iPhoneRoman */ = {
+			isa = PBXGroup;
+			children = (
+				6F200B161522C9D800ED3242 /* WGAppDelegate.h */,
+				6F200B171522C9D800ED3242 /* WGAppDelegate.m */,
+				6F200B191522C9D800ED3242 /* WGRootViewController.h */,
+				6F200B1A1522C9D800ED3242 /* WGRootViewController.m */,
+				6F200B1C1522C9D800ED3242 /* WGDataViewController.h */,
+				6F200B1D1522C9D800ED3242 /* WGDataViewController.m */,
+				6F200B1F1522C9D800ED3242 /* WGModelController.h */,
+				6F200B201522C9D800ED3242 /* WGModelController.m */,
+				6F200B221522C9D800ED3242 /* MainStoryboard.storyboard */,
+				6F200B0E1522C9D800ED3242 /* Supporting Files */,
+			);
+			path = iPhoneRoman;
+			sourceTree = "<group>";
+		};
+		6F200B0E1522C9D800ED3242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F200B0F1522C9D800ED3242 /* iPhoneRoman-Info.plist */,
+				6F200B101522C9D800ED3242 /* InfoPlist.strings */,
+				6F200B131522C9D800ED3242 /* main.m */,
+				6F200B151522C9D800ED3242 /* iPhoneRoman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F200B021522C9D800ED3242 /* iPhoneRoman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F200B271522C9D800ED3242 /* Build configuration list for PBXNativeTarget "iPhoneRoman" */;
+			buildPhases = (
+				6F200AFF1522C9D800ED3242 /* Sources */,
+				6F200B001522C9D800ED3242 /* Frameworks */,
+				6F200B011522C9D800ED3242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneRoman;
+			productName = iPhoneRoman;
+			productReference = 6F200B031522C9D800ED3242 /* iPhoneRoman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F200AFA1522C9D700ED3242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WG;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = WisdomGroup;
+			};
+			buildConfigurationList = 6F200AFD1522C9D700ED3242 /* Build configuration list for PBXProject "iPhoneRoman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F200AF81522C9D700ED3242;
+			productRefGroup = 6F200B041522C9D800ED3242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F200B021522C9D800ED3242 /* iPhoneRoman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F200B011522C9D800ED3242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F200B121522C9D800ED3242 /* InfoPlist.strings in Resources */,
+				6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F200AFF1522C9D800ED3242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F200B141522C9D800ED3242 /* main.m in Sources */,
+				6F200B181522C9D800ED3242 /* WGAppDelegate.m in Sources */,
+				6F200B1B1522C9D800ED3242 /* WGRootViewController.m in Sources */,
+				6F200B1E1522C9D800ED3242 /* WGDataViewController.m in Sources */,
+				6F200B211522C9D800ED3242 /* WGModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F200B101522C9D800ED3242 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F200B111522C9D800ED3242 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F200B221522C9D800ED3242 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F200B231522C9D800ED3242 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F200B251522C9D800ED3242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F200B261522C9D800ED3242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F200B281522C9D800ED3242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRoman/iPhoneRoman-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRoman/iPhoneRoman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F200B291522C9D800ED3242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRoman/iPhoneRoman-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRoman/iPhoneRoman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F200AFD1522C9D700ED3242 /* Build configuration list for PBXProject "iPhoneRoman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F200B251522C9D800ED3242 /* Debug */,
+				6F200B261522C9D800ED3242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F200B271522C9D800ED3242 /* Build configuration list for PBXNativeTarget "iPhoneRoman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F200B281522C9D800ED3242 /* Debug */,
+				6F200B291522C9D800ED3242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F200AFA1522C9D700ED3242 /* Project object */;
+}
