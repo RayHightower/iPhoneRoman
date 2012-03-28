@@ -1,0 +1,6 @@
+iPhoneRoman
+===
+
+This is a version of the popular Arabic to Roman kata, written in Objective-C for the iPhone.
+
+One video of the [Ruby version](http://www.youtube.com/watch?v=VLEgp1189dk)
