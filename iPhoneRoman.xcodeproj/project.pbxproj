@@ -17,6 +17,7 @@
 		6F200B1E1522C9D800ED3242 /* WGDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B1D1522C9D800ED3242 /* WGDataViewController.m */; };
 		6F200B211522C9D800ED3242 /* WGModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B201522C9D800ED3242 /* WGModelController.m */; };
 		6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B221522C9D800ED3242 /* MainStoryboard.storyboard */; };
+		6F200B2B1522CA0500ED3242 /* readme.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B2A1522CA0500ED3242 /* readme.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,19 +25,20 @@
 		6F200B071522C9D800ED3242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F200B091522C9D800ED3242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F200B0B1522C9D800ED3242 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F200B0F1522C9D800ED3242 /* iPhoneRoman-Info.plist */ = {isa = PBXFileReference; path = "iPhoneRoman-Info.plist"; sourceTree = "<group>"; };
+		6F200B0F1522C9D800ED3242 /* iPhoneRoman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneRoman-Info.plist"; sourceTree = "<group>"; };
 		6F200B111522C9D800ED3242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F200B131522C9D800ED3242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F200B151522C9D800ED3242 /* iPhoneRoman-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneRoman-Prefix.pch"; sourceTree = "<group>"; };
-		6F200B161522C9D800ED3242 /* WGAppDelegate.h */ = {isa = PBXFileReference; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		6F200B151522C9D800ED3242 /* iPhoneRoman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneRoman-Prefix.pch"; sourceTree = "<group>"; };
+		6F200B161522C9D800ED3242 /* WGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAppDelegate.h; sourceTree = "<group>"; };
 		6F200B171522C9D800ED3242 /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
-		6F200B191522C9D800ED3242 /* WGRootViewController.h */ = {isa = PBXFileReference; path = WGRootViewController.h; sourceTree = "<group>"; };
+		6F200B191522C9D800ED3242 /* WGRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGRootViewController.h; sourceTree = "<group>"; };
 		6F200B1A1522C9D800ED3242 /* WGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGRootViewController.m; sourceTree = "<group>"; };
-		6F200B1C1522C9D800ED3242 /* WGDataViewController.h */ = {isa = PBXFileReference; path = WGDataViewController.h; sourceTree = "<group>"; };
+		6F200B1C1522C9D800ED3242 /* WGDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGDataViewController.h; sourceTree = "<group>"; };
 		6F200B1D1522C9D800ED3242 /* WGDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGDataViewController.m; sourceTree = "<group>"; };
-		6F200B1F1522C9D800ED3242 /* WGModelController.h */ = {isa = PBXFileReference; path = WGModelController.h; sourceTree = "<group>"; };
+		6F200B1F1522C9D800ED3242 /* WGModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGModelController.h; sourceTree = "<group>"; };
 		6F200B201522C9D800ED3242 /* WGModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGModelController.m; sourceTree = "<group>"; };
 		6F200B231522C9D800ED3242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6F200B2A1522CA0500ED3242 /* readme.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		6F200B0D1522C9D800ED3242 /* iPhoneRoman */ = {
 			isa = PBXGroup;
 			children = (
+				6F200B2A1522CA0500ED3242 /* readme.mdown */,
 				6F200B161522C9D800ED3242 /* WGAppDelegate.h */,
 				6F200B171522C9D800ED3242 /* WGAppDelegate.m */,
 				6F200B191522C9D800ED3242 /* WGRootViewController.h */,
@@ -162,6 +165,7 @@
 			files = (
 				6F200B121522C9D800ED3242 /* InfoPlist.strings in Resources */,
 				6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */,
+				6F200B2B1522CA0500ED3242 /* readme.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
