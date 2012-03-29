@@ -17,7 +17,6 @@
 		6F200B1E1522C9D800ED3242 /* WGDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B1D1522C9D800ED3242 /* WGDataViewController.m */; };
 		6F200B211522C9D800ED3242 /* WGModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F200B201522C9D800ED3242 /* WGModelController.m */; };
 		6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B221522C9D800ED3242 /* MainStoryboard.storyboard */; };
-		6F200B2B1522CA0500ED3242 /* readme.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 6F200B2A1522CA0500ED3242 /* readme.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 		6F200B1F1522C9D800ED3242 /* WGModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGModelController.h; sourceTree = "<group>"; };
 		6F200B201522C9D800ED3242 /* WGModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGModelController.m; sourceTree = "<group>"; };
 		6F200B231522C9D800ED3242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6F200B2A1522CA0500ED3242 /* readme.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 		6F200B0D1522C9D800ED3242 /* iPhoneRoman */ = {
 			isa = PBXGroup;
 			children = (
-				6F200B2A1522CA0500ED3242 /* readme.mdown */,
 				6F200B161522C9D800ED3242 /* WGAppDelegate.h */,
 				6F200B171522C9D800ED3242 /* WGAppDelegate.m */,
 				6F200B191522C9D800ED3242 /* WGRootViewController.h */,
@@ -165,7 +162,6 @@
 			files = (
 				6F200B121522C9D800ED3242 /* InfoPlist.strings in Resources */,
 				6F200B241522C9D800ED3242 /* MainStoryboard.storyboard in Resources */,
-				6F200B2B1522CA0500ED3242 /* readme.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +288,7 @@
 				6F200B291522C9D800ED3242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
